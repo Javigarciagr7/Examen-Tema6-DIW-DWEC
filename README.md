@@ -2,4 +2,4 @@
 
 **AUTOR**: Javier García Rodríguez
 
-**GITHUB**:
+**GITHUB**: https://github.com/Javigarciagr7/Examen-Tema6-DIW-DWEC.git
