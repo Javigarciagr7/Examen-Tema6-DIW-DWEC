@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 86vh;
+    height: 88vh;
     position: relative;
     overflow: hidden; 
     z-index: 1;
@@ -130,14 +130,10 @@
 .galeria h1{
     text-align: center;
     margin:20px 0 15px 0;
-    font-weight: 300;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.titulo-galeria{
-    font-weight: bold;
-    font-size: 23px;
-    color: black;
-}
 
 .linea{
    /* border-top: 5px solid #0077C0; */
@@ -233,4 +229,3 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
     font-size: 14px;
 }
-
