@@ -4,8 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sabana Africana</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="assets/favicon/Sabana.ico" type="image/x-icon">
 </head>
 <body>
+    <header>
+        <div class="contenedor">
+            <div class="Logoimg">
+              <img src="assets/imgs/ZebraLogo.jpg" alt="Logo zebra">
+            </div>
+
+            <nav class="menuppal">
+              <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+              </ul>
+            </nav>
+          </div>
+    </header>
+
+    <section class="hero-section">
+        <video autoplay muted loop class="hero-video">
+            <source src="assets/videos/Africa WildLife.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="Titulo">Sabana Africana</h1>
+        </div>
+    </section>
     
+    <section id="galeria">
+    <div class="galeria">
+        <h1 class="titulo-galeria">Galeria:</h1>
+        <div class="linea"></div>
+        <div class="contenedor-imagenes">
+            <div class="imagen" onclick="abrirImagen('1.1.png')">
+                <img src="assets/imgs/PEQUEÑAS(JPG)/1.jpg" alt="Leopardo">
+            </div>
+            <div class="imagen" onclick="abrirImagen('2.2.png')">
+                <img src="assets/imgs/PEQUEÑAS(JPG)/2.jpg" alt="Jirafa">
+            </div>
+            <div class="imagen" onclick="abrirImagen('3.3.png')">
+                <img src="assets/imgs/PEQUEÑAS(JPG)/3.jpg" alt="elefante">
+            </div>
+            <div class="imagen" onclick="abrirImagen('4.4.png')">
+                <img src="assets/imgs/PEQUEÑAS(JPG)/4.jpg" alt="león">
+            </div>
+            <div class="imagen" onclick="abrirImagen('5.5.png')">
+                <img src="assets/imgs/PEQUEÑAS(JPG)/5.jpg" alt="globo">
+            </div>
+            <div class="imagen" onclick="abrirImagen('6.6.png')">
+                <img src="assets/imgs/PEQUEÑAS(JPG)/6.jpg" alt="suricato">
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="lightbox" class="lightbox" onclick="cerrarImagen()">
+    <span class="cerrar" onclick="cerrarImagen()">&times;</span>
+    <img id="imagen-ampliada" class="imagen-ampliada" src="" alt="">
+</div>
+
+<br>
+<br>
+
+<footer class="footer">
+    <p>JAVIER GARCÍA RODRÍGUEZ</p>
+</footer>
+
 </body>
+<script src="scripts/index.js"></script>
 </html>
